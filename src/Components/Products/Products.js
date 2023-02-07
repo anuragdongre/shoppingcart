@@ -4,39 +4,39 @@ import CartContext from "../Store/CartContext";
 
 const productsArr = [
   {
-    title: "Shoes",
+    title: "Forest Frenzy",
 
-    price: 10000,
+    price: 100000,
 
-    imageUrl: "https://source.unsplash.com/200x200/?shoes",
+    imageUrl: "https://media.discordapp.net/attachments/1072573942063190018/1072582822507855952/anurag_nike_shoe_color_green_3d_hyper_realistic_lifelike_extra__42c4dcef-1226-42f9-b56f-ccd18a6607e4.png?width=559&height=559",
 
     id:1
   },
 
   {
-    title: "Sport Shoes",
+    title: "Shadow Sprint",
 
     price: 500000,
 
-    imageUrl: "https://source.unsplash.com/200x200/?sport%20shoes",
+    imageUrl: "https://media.discordapp.net/ephemeral-attachments/1072573942063190018/1072580493532463214/grid_0.webp?width=559&height=559",
     id:2
   },
 
   {
-    title: "Running Shoes",
+    title: "Inferno Ignite",
 
-    price: 7000,
+    price: 700000,
 
-    imageUrl: "https://source.unsplash.com/200x200/?running%20shoes",
+    imageUrl: "https://media.discordapp.net/attachments/1072573942063190018/1072593509762203718/anurag_nike_shoe_color_red_fire_3d_hyper_realistic_lifelike_ext_cd391d95-1225-4a30-b323-ee1676330c43.png?width=606&height=606",
     id:3
   },
 
   {
-    title: "Casual Shoes",
+    title: "Midnight Rush",
 
-    price: 10000,
+    price: 756000,
 
-    imageUrl: "https://source.unsplash.com/200x200/?casual%20shoes",
+    imageUrl: "https://media.discordapp.net/attachments/1072573942063190018/1072581719707877397/anurag_nike_shoe_color_black_3d_hyper_realistic_lifelike_extra__79335b25-1f12-481b-802a-f3680285b5a0.png?width=559&height=559",
     id:4
   },
 ];
@@ -65,7 +65,7 @@ const addItemToCart=(product)=>{
 }
   return <React.Fragment>
   {productsArr.map((product)=>(
-    <form style={{ width: '18rem',display: "inline-block", flexWrap: "wrap" }} className="m-3" onSubmit={submitHandler}>
+    <form style={{ width: '18rem',display: " contents", flexWrap: "wrap" }} className="m-3" onSubmit={submitHandler}>
         <Card className="shadow-lg m-5" key={Math.random()} style={{ width: '18rem',display: "inline-block", flexWrap: "wrap" }}>
             <Card.Img variant="top"  src={product.imageUrl} ></Card.Img>
             <Card.Body>
