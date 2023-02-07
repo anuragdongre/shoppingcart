@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+
+import React from 'react'
 import './App.css';
+import Grid from './Components/EssentialsLayout/Grid';
+import Header from "./Components/EssentialsLayout/Header";
+import Section from './Components/EssentialsLayout/Section';
+import Products from './Components/Products/Products';
+import CartProvider from './Components/Store/CartProvider';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+      <Header/>
+      <Grid/>
+      <Section/>
+      <Products/>
+    </CartProvider>
   );
 }
 
