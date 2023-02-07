@@ -60,6 +60,8 @@ const addItemToCart=(product)=>{
     price:product.price
   })
 
+  
+
 }
   return <React.Fragment>
   {productsArr.map((product)=>(
