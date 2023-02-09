@@ -8,7 +8,7 @@ const defaultState = {
 }
 
 const cartReducer = (state, action) => {
-    if (action.type === "ADD") {
+    if (action.type === "ADD") {        //0                 //value product                     //1
         const updatedAmount = state.totalAmount + action.value.price * action.value.quantity;
 
 
@@ -17,20 +17,20 @@ const cartReducer = (state, action) => {
 
 
 
-        let update = state.products.concat(action.value)
         if (existsItem) {
             alert("item alreadry exisits")
             return {
                 products:state.products,
                 totalAmount:state.totalAmount
             }
-
+            
         }
-
-
-
-
-
+        
+        
+        
+        
+        
+        let update = state.products.concat(action.value)
         return {
             products: update,
             totalAmount: updatedAmount
@@ -55,7 +55,7 @@ const CartProvider = (props) => {
 
 
     const addProductHandler = (product) => {
-        dispatchFN({
+        dispatchFN({                   //action===dispatch
             type: "ADD",
             value: product
 

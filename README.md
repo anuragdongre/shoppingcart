@@ -20,6 +20,7 @@ A simple and intuitive shopping cart application built using ReactJS.
 - HTML
 - CSS
 - JavaScript
+- Midjourney.ai
 
 ## Contributing
 Contributions are welcome! Please fork the repository and open a pull request with your changes.

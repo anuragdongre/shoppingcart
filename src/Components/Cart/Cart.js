@@ -7,7 +7,7 @@ import CartContext from "../Store/CartContext";
 const Cart = (props) => {
   const context=useContext(CartContext)
 
-  const totalAmount= `${context.totalAmount.toFixed(2)}rs`
+  const totalAmount= `$${context.totalAmount.toFixed(2)}`
 
   const hasItems=context.products.length>0;
 
