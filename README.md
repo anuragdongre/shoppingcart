@@ -2,6 +2,7 @@
 
 A simple and intuitive shopping cart application built using ReactJS.
 
+![Shopping Cart](./src/Components/Products/Screenshot_20230210_132728.png)
 ## Features
 - Add and remove items from the cart
 - Display the total price of items in the cart
