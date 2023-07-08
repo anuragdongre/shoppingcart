@@ -18,7 +18,7 @@ const productsArr = [
 
     price: 500000,
 
-    imageUrl: "https://media.discordapp.net/ephemeral-attachments/1072573942063190018/1072580493532463214/grid_0.webp?width=559&height=559",
+    imageUrl: "https://media.discordapp.net/attachments/1072573942063190018/1072581719707877397/anurag_nike_shoe_color_black_3d_hyper_realistic_lifelike_extra__79335b25-1f12-481b-802a-f3680285b5a0.png?width=606&height=606",
     id:2
   },
 
